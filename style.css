@@ -1,10 +1,12 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 .header{
-    background-color: #1f2973;
-    margin: 0;
-    
+    background-color: #1f2937;
+    padding: 16px 100px;
+    align-items: center;
+
 }
 
 .header-top{
@@ -12,15 +14,27 @@ body{
     justify-content: space-between;
 }
 
-image{
-    width: 200;
+
+img{
+    width: 200px;
     height: auto;
+}
+
+button{
+    width: auto;
+    background-color: blue;
+    color: white;
+    border-radius: 2px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
   flex-wrap: wrap;
+  gap: 10px;
+  font-weight: lighter;
+  font-size: 12px;
+  color: #f9faf8;
 }
 
 .header-content{
