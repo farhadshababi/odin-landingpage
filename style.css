@@ -4,44 +4,49 @@ body{
 }
 .header{
     background-color: #1f2937;
-    padding: 16px 100px;
-    align-items: center;
-
-}
-
-.header-top{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+
 }
 
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
 
-img{
-    width: 200px;
+ul{
+ list-style-type: none;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  color: #e5e7eb;
+}
+
+.hero{
+    background-color: #1f2937;
+    display: flex;
+    padding: 100px 50px;
+
+}
+
+#hero{
+    width: 400px;
     height: auto;
 }
 
 button{
-    width: auto;
+    width: 100px;
     background-color: blue;
     color: white;
-    border-radius: 2px;
+    border-radius: 5px;
+    margin: 10px;
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  font-weight: lighter;
-  font-size: 12px;
-  color: #f9faf8;
-}
 
-.header-content{
-    display: flex;
-}
-
-.header-left{
+.hero-left{
 display: flex;
 flex-direction: column;
 }
@@ -50,15 +55,64 @@ flex-direction: column;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    
 }
 
 .sub-text{
     font-size: 18px;
-    font-weight: bolder;
     color: #e5e7eb;
+    margin: 10px;
 }
 
-.logo{
-    font-size: 24px;
-    color: #f9faf8;
+.content-title{
+text-align: center;
+font-weight: 900;
+font-size: 36px;
+margin: 30px;
+}
+
+#content{
+    text-align: center;
+}
+
+.content-body{
+display: flex;
+gap: 10px;
+justify-content: space-between;
+align-items: center;
+padding: 70px;
+
+}
+
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 70px;
+    font-weight: lighter;
+}
+
+.quoter{
+    font-weight: bold;
+    font-style: normal;
+    text-align: right ;
+}
+
+.action{
+    background-color: blueviolet;
+    margin: 50px;
+    border-radius: 5px;
+    display: flex;
+}
+
+.action-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
 }
